@@ -44,6 +44,18 @@ while x <= 10:
 # This program asks users for five numbers
 # It then sums up the numbers
 
+# Date: 1.20.20
+# Program: Double For Loop
+
+for i in range(3):
+    print("Outer For loop " + str(i))
+    for k in range(4):
+        print("\tInner for loop " + str(k))
+
+
+
+print("\n***************\n")
+
 
 sum = 0
 how_many_numbers = int(input("\nHow many numbers would you like to sum up: "))
@@ -76,3 +88,17 @@ Average = total / how_many_tests
 print("\nAverage: " + str(round(Average, 2)))
 
 
+print("\n***************\n")
+
+"""
+Programmer: Jasek Zielaskowski
+Date: 1.23.20
+Program: While Loop nested inside of a For Loop
+"""
+
+for i in range(4):
+    print("For Loop" + str(i))
+    x = i
+    while x >= 0:
+        print("\tWhile Loop " + str(x))
+        x = x - 1
