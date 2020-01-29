@@ -23,4 +23,4 @@ for i in range(4):
     x = i
     while x >= 0:
         print("\tWhile Loop " + str(x))
-        x = x - 1
+        x = x - 1   
